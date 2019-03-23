@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+dist
+
+# compiled output
+/web/app-src/dist
+/web/app-src/tmp
+/web/app-src/out-tsc
+# Only exists if Bazel was run
+/web/app-src/bazel-out
+
+# dependencies
+/web/app-src/node_modules
+
+# profiling files
+/web/app-src/chrome-profiler-events.json
+/web/app-src/speed-measure-plugin.json
+
+# IDEs and editors
+/web/app-src/.idea
+/web/app-src/.project
+/web/app-src/.classpath
+/web/app-src/.c9/
+/web/app-src/*.launch
+/web/app-src/.settings/
+/web/app-src/*.sublime-workspace
+
+# IDE - VSCode
+/web/app-src/.vscode/*
+/web/app-src/!.vscode/settings.json
+/web/app-src/!.vscode/tasks.json
+/web/app-src/!.vscode/launch.json
+/web/app-src/!.vscode/extensions.json
+/web/app-src/.history/*
+
+# misc
+/web/app-src/.sass-cache
+/web/app-src/connect.lock
+/web/app-src/coverage
+/web/app-src/libpeerconnection.log
+/web/app-src/npm-debug.log
+/web/app-src/yarn-error.log
+/web/app-src/testem.log
+/web/app-src/typings
+
+# System Files
+/web/app-src/.DS_Store
+/web/app-src/Thumbs.db
