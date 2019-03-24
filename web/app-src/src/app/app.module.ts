@@ -1,16 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
-import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { SeccionComponent } from './seccion/seccion.component';
 
 @NgModule({
   declarations: [
-    AppComponent,HeaderComponent
+    HeaderComponent,MenuComponent,SeccionComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent,HeaderComponent]
+  bootstrap: [HeaderComponent,MenuComponent,SeccionComponent]
 })
 export class AppModule { }

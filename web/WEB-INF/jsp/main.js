@@ -23,60 +23,6 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/app.component.css":
-/*!***********************************!*\
-  !*** ./src/app/app.component.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
-
-/***/ }),
-
-/***/ "./src/app/app.component.html":
-/*!************************************!*\
-  !*** ./src/app/app.component.html ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/cli\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n\n"
-
-/***/ }),
-
-/***/ "./src/app/app.component.ts":
-/*!**********************************!*\
-  !*** ./src/app/app.component.ts ***!
-  \**********************************/
-/*! exports provided: AppComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
-        this.title = 'app-src';
-    }
-    AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-root',
-            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
-        })
-    ], AppComponent);
-    return AppComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/app.module.ts":
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
@@ -90,7 +36,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
+/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
+/* harmony import */ var _seccion_seccion_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./seccion/seccion.component */ "./src/app/seccion/seccion.component.ts");
+
+
 
 
 
@@ -101,16 +51,139 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
+                _header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"], _menu_menu_component__WEBPACK_IMPORTED_MODULE_4__["MenuComponent"], _seccion_seccion_component__WEBPACK_IMPORTED_MODULE_5__["SeccionComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            bootstrap: [_header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"], _menu_menu_component__WEBPACK_IMPORTED_MODULE_4__["MenuComponent"], _seccion_seccion_component__WEBPACK_IMPORTED_MODULE_5__["SeccionComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/header/header.component.html":
+/*!**********************************************!*\
+  !*** ./src/app/header/header.component.html ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<header id=\"header\" class=\"page-topbar\">\n  <!-- start header nav-->\n  <div class=\"navbar-fixed\">\n    <nav class=\"navbar-color gradient-45deg-light-blue-cyan\">\n      <div class=\"nav-wrapper\">\n        <ul class=\"left\">\n          <li>\n            <h1 class=\"logo-wrapper\">\n              <a href=\"index.html\" class=\"brand-logo darken-1\">\n                <img src=\"images/logo/materialize-logo.png\" alt=\"materialize logo\">\n                <span class=\"logo-text hide-on-med-and-down\">Materialize</span>\n              </a>\n            </h1>\n          </li>\n        </ul>\n        <div class=\"header-search-wrapper hide-on-med-and-down\">\n          <i class=\"material-icons\">search</i>\n          <input type=\"text\" name=\"Search\" class=\"header-search-input z-depth-2\" placeholder=\"Explore Materialize\" />\n        </div>\n        <ul class=\"right hide-on-med-and-down\">\n          <li>\n            <a href=\"javascript:void(0);\" class=\"waves-effect waves-block waves-light translation-button\" data-activates=\"translation-dropdown\">\n              <span class=\"flag-icon flag-icon-gb\"></span>\n            </a>\n          </li>\n          <li>\n            <a href=\"javascript:void(0);\" class=\"waves-effect waves-block waves-light toggle-fullscreen\">\n              <i class=\"material-icons\">settings_overscan</i>\n            </a>\n          </li>\n          <li>\n            <a href=\"javascript:void(0);\" class=\"waves-effect waves-block waves-light notification-button\" data-activates=\"notifications-dropdown\">\n              <i class=\"material-icons\">notifications_none\n                <small class=\"notification-badge pink accent-2\">5</small>\n              </i>\n            </a>\n          </li>\n          <li>\n            <a href=\"javascript:void(0);\" class=\"waves-effect waves-block waves-light profile-button\" data-activates=\"profile-dropdown\">\n              <span class=\"avatar-status avatar-online\">\n                <img src=\"images/avatar/avatar-7.png\" alt=\"avatar\">\n                <i></i>\n              </span>\n            </a>\n          </li>\n          <li>\n            <a href=\"#\" data-activates=\"chat-out\" class=\"waves-effect waves-block waves-light chat-collapse\">\n              <i class=\"material-icons\">format_indent_increase</i>\n            </a>\n          </li>\n        </ul>\n        <!-- translation-button -->\n        <ul id=\"translation-dropdown\" class=\"dropdown-content\">\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-1\">\n              <i class=\"flag-icon flag-icon-gb\"></i> English</a>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-1\">\n              <i class=\"flag-icon flag-icon-fr\"></i> French</a>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-1\">\n              <i class=\"flag-icon flag-icon-cn\"></i> Chinese</a>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-1\">\n              <i class=\"flag-icon flag-icon-de\"></i> German</a>\n          </li>\n        </ul>\n        <!-- notifications-dropdown -->\n        <ul id=\"notifications-dropdown\" class=\"dropdown-content\">\n          <li>\n            <h6>NOTIFICATIONS\n              <span class=\"new badge\">5</span>\n            </h6>\n          </li>\n          <li class=\"divider\"></li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-2\">\n              <span class=\"material-icons icon-bg-circle cyan small\">add_shopping_cart</span> A new order has been placed!</a>\n            <time class=\"media-meta\" datetime=\"2015-06-12T20:50:48+08:00\">2 hours ago</time>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-2\">\n              <span class=\"material-icons icon-bg-circle red small\">stars</span> Completed the task</a>\n            <time class=\"media-meta\" datetime=\"2015-06-12T20:50:48+08:00\">3 days ago</time>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-2\">\n              <span class=\"material-icons icon-bg-circle teal small\">settings</span> Settings updated</a>\n            <time class=\"media-meta\" datetime=\"2015-06-12T20:50:48+08:00\">4 days ago</time>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-2\">\n              <span class=\"material-icons icon-bg-circle deep-orange small\">today</span> Director meeting started</a>\n            <time class=\"media-meta\" datetime=\"2015-06-12T20:50:48+08:00\">6 days ago</time>\n          </li>\n          <li>\n            <a href=\"#!\" class=\"grey-text text-darken-2\">\n              <span class=\"material-icons icon-bg-circle amber small\">trending_up</span> Generate monthly report</a>\n            <time class=\"media-meta\" datetime=\"2015-06-12T20:50:48+08:00\">1 week ago</time>\n          </li>\n        </ul>\n        <!-- profile-dropdown -->\n        <ul id=\"profile-dropdown\" class=\"dropdown-content\">\n          <li>\n            <a href=\"#\" class=\"grey-text text-darken-1\">\n              <i class=\"material-icons\">face</i> Profile</a>\n          </li>\n          <li>\n            <a href=\"#\" class=\"grey-text text-darken-1\">\n              <i class=\"material-icons\">settings</i> Settings</a>\n          </li>\n          <li>\n            <a href=\"#\" class=\"grey-text text-darken-1\">\n              <i class=\"material-icons\">live_help</i> Help</a>\n          </li>\n          <li class=\"divider\"></li>\n          <li>\n            <a href=\"#\" class=\"grey-text text-darken-1\">\n              <i class=\"material-icons\">lock_outline</i> Lock</a>\n          </li>\n          <li>\n            <a href=\"#\" class=\"grey-text text-darken-1\">\n              <i class=\"material-icons\">keyboard_tab</i> Logout</a>\n          </li>\n        </ul>\n      </div>\n    </nav>\n  </div>\n  <!-- end header nav-->\n</header>\n"
+
+/***/ }),
+
+/***/ "./src/app/header/header.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/header/header.component.ts ***!
+  \********************************************/
+/*! exports provided: HeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var HeaderComponent = /** @class */ (function () {
+    function HeaderComponent() {
+    }
+    HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'header-app',
+            template: __webpack_require__(/*! ./header.component.html */ "./src/app/header/header.component.html")
+        })
+    ], HeaderComponent);
+    return HeaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/menu/menu.component.html":
+/*!******************************************!*\
+  !*** ./src/app/menu/menu.component.html ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<aside id=\"left-sidebar-nav\">\n            <ul id=\"slide-out\" class=\"side-nav fixed leftside-navigation\">\n              <li class=\"user-details cyan darken-2\">\n                <div class=\"row\">\n                  <div class=\"col col s4 m4 l4\">\n                    <img src=\"images/avatar/avatar-7.png\" alt=\"\" class=\"circle responsive-img valign profile-image cyan\">\n                  </div>\n                  <div class=\"col col s8 m8 l8\">\n                    <ul id=\"profile-dropdown-nav\" class=\"dropdown-content\">\n                      <li>\n                        <a href=\"#\" class=\"grey-text text-darken-1\">\n                          <i class=\"material-icons\">face</i> Profile</a>\n                      </li>\n                      <li>\n                        <a href=\"#\" class=\"grey-text text-darken-1\">\n                          <i class=\"material-icons\">settings</i> Settings</a>\n                      </li>\n                      <li>\n                        <a href=\"#\" class=\"grey-text text-darken-1\">\n                          <i class=\"material-icons\">live_help</i> Help</a>\n                      </li>\n                      <li class=\"divider\"></li>\n                      <li>\n                        <a href=\"#\" class=\"grey-text text-darken-1\">\n                          <i class=\"material-icons\">lock_outline</i> Lock</a>\n                      </li>\n                      <li>\n                        <a href=\"#\" class=\"grey-text text-darken-1\">\n                          <i class=\"material-icons\">keyboard_tab</i> Logout</a>\n                      </li>\n                    </ul>\n                    <a class=\"btn-flat dropdown-button waves-effect waves-light white-text profile-btn\" href=\"#\" data-activates=\"profile-dropdown-nav\">John Doe<i class=\"mdi-navigation-arrow-drop-down right\"></i></a>\n                    <p class=\"user-roal\">Administrator</p>\n                  </div>\n                </div>\n              </li>\n              <li class=\"no-padding\">\n                <ul class=\"collapsible\" data-collapsible=\"accordion\">\n                  <li class=\"bold\">\n                    <a href=\"index.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">pie_chart_outlined</i>\n                        <span class=\"nav-text\">Dashboard</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"cards-basic.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">cast</i>\n                        <span class=\"nav-text\">Cards</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"ui-basic-buttons.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">insert_link</i>\n                        <span class=\"nav-text\">Buttons</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"form-layouts.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">format_color_text</i>\n                        <span class=\"nav-text\">Forms</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"css-typography.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">format_size</i>\n                        <span class=\"nav-text\">Typography</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"css-color.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">invert_colors</i>\n                        <span class=\"nav-text\">Color</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"table-basic.html\" class=\"waves-effect waves-cyan\">\n                        <i class=\"material-icons\">border_all</i>\n                        <span class=\"nav-text\">Table</span>\n                      </a>\n                  </li>\n                  <li class=\"bold\">\n                    <a href=\"ui-icons.html\" class=\"waves-effect waves-cyan\">\n                      <i class=\"material-icons\">lightbulb_outline</i>\n                      <span class=\"nav-text\">Icons</span>\n                    </a>\n                  </li>\n                  <li>\n                    <a class=\"btn waves-effect waves-light gradient-45deg-red-pink\" href=\"https://pixinvent.com/materialize-material-design-admin-template/landing/\" target=\"_blank\">\n                      <i class=\"material-icons white-text\">file_upload</i>Upgrade to Pro!\n                    </a>\n                  </li>\n                </ul>\n              </li>\n            </ul>\n            <a href=\"#\" data-activates=\"slide-out\" class=\"sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only\">\n              <i class=\"material-icons\">menu</i>\n            </a>\n          </aside>\n"
+
+/***/ }),
+
+/***/ "./src/app/menu/menu.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/menu/menu.component.ts ***!
+  \****************************************/
+/*! exports provided: MenuComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuComponent", function() { return MenuComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MenuComponent = /** @class */ (function () {
+    function MenuComponent() {
+    }
+    MenuComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "menu-app",
+            template: __webpack_require__(/*! ./menu.component.html */ "./src/app/menu/menu.component.html")
+        })
+    ], MenuComponent);
+    return MenuComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/seccion/seccion.component.html":
+/*!************************************************!*\
+  !*** ./src/app/seccion/seccion.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section id=\"content\">\n    <!--start container-->\n    <div class=\"container\">\n      <!--card stats start-->\n      <div id=\"card-stats\">\n        <div class=\"row mt-1\">\n          <div class=\"col s12 m6 l3\">\n            <div class=\"card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text\">\n              <div class=\"padding-4\">\n                <div class=\"col s7 m7\">\n                  <i class=\"material-icons background-round mt-5\">add_shopping_cart</i>\n                  <p>Orders</p>\n                </div>\n                <div class=\"col s5 m5 right-align\">\n                  <h5 class=\"mb-0\">690</h5>\n                  <p class=\"no-margin\">New</p>\n                  <p>6,00,00</p>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col s12 m6 l3\">\n            <div class=\"card gradient-45deg-red-pink gradient-shadow min-height-100 white-text\">\n              <div class=\"padding-4\">\n                <div class=\"col s7 m7\">\n                  <i class=\"material-icons background-round mt-5\">perm_identity</i>\n                  <p>Clients</p>\n                </div>\n                <div class=\"col s5 m5 right-align\">\n                  <h5 class=\"mb-0\">1885</h5>\n                  <p class=\"no-margin\">New</p>\n                  <p>1,12,900</p>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col s12 m6 l3\">\n            <div class=\"card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text\">\n              <div class=\"padding-4\">\n                <div class=\"col s7 m7\">\n                  <i class=\"material-icons background-round mt-5\">timeline</i>\n                  <p>Sales</p>\n                </div>\n                <div class=\"col s5 m5 right-align\">\n                  <h5 class=\"mb-0\">80%</h5>\n                  <p class=\"no-margin\">Growth</p>\n                  <p>3,42,230</p>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col s12 m6 l3\">\n            <div class=\"card gradient-45deg-green-teal gradient-shadow min-height-100 white-text\">\n              <div class=\"padding-4\">\n                <div class=\"col s7 m7\">\n                  <i class=\"material-icons background-round mt-5\">attach_money</i>\n                  <p>Profit</p>\n                </div>\n                <div class=\"col s5 m5 right-align\">\n                  <h5 class=\"mb-0\">$890</h5>\n                  <p class=\"no-margin\">Today</p>\n                  <p>$25,000</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!--<div id=\"card-stats\">-->\n      <!--  <div class=\"row\">-->\n      <!--    <div class=\"col s12 m6 l3\">-->\n      <!--      <div class=\"card\">-->\n      <!--        <div class=\"card-content cyan white-text\">-->\n      <!--          <p class=\"card-stats-title\">-->\n      <!--            <i class=\"material-icons\">person_outline</i> New Clients</p>-->\n      <!--          <h4 class=\"card-stats-number\">566</h4>-->\n      <!--          <p class=\"card-stats-compare\">-->\n      <!--            <i class=\"material-icons\">keyboard_arrow_up</i> 15%-->\n      <!--            <span class=\"cyan text text-lighten-5\">from yesterday</span>-->\n      <!--          </p>-->\n      <!--        </div>-->\n      <!--      </div>-->\n      <!--    </div>-->\n      <!--    <div class=\"col s12 m6 l3\">-->\n      <!--      <div class=\"card\">-->\n      <!--        <div class=\"card-content red accent-2 white-text\">-->\n      <!--          <p class=\"card-stats-title\">-->\n      <!--            <i class=\"material-icons\">attach_money</i>Total Sales</p>-->\n      <!--          <h4 class=\"card-stats-number\">$8990.63</h4>-->\n      <!--          <p class=\"card-stats-compare\">-->\n      <!--            <i class=\"material-icons\">keyboard_arrow_up</i> 70%-->\n      <!--            <span class=\"red-text text-lighten-5\">last month</span>-->\n      <!--          </p>-->\n      <!--        </div>-->\n      <!--      </div>-->\n      <!--    </div>-->\n      <!--    <div class=\"col s12 m6 l3\">-->\n      <!--      <div class=\"card\">-->\n      <!--        <div class=\"card-content teal accent-4 white-text\">-->\n      <!--          <p class=\"card-stats-title\">-->\n      <!--            <i class=\"material-icons\">trending_up</i> Today Profit</p>-->\n      <!--          <h4 class=\"card-stats-number\">$806.52</h4>-->\n      <!--          <p class=\"card-stats-compare\">-->\n      <!--            <i class=\"material-icons\">keyboard_arrow_up</i> 80%-->\n      <!--            <span class=\"teal-text text-lighten-5\">from yesterday</span>-->\n      <!--          </p>-->\n      <!--        </div>-->\n\n      <!--      </div>-->\n      <!--    </div>-->\n      <!--    <div class=\"col s12 m6 l3\">-->\n      <!--      <div class=\"card\">-->\n      <!--        <div class=\"card-content deep-orange accent-2 white-text\">-->\n      <!--          <p class=\"card-stats-title\">-->\n      <!--            <i class=\"material-icons\">content_copy</i> New Invoice</p>-->\n      <!--          <h4 class=\"card-stats-number\">1806</h4>-->\n      <!--          <p class=\"card-stats-compare\">-->\n      <!--            <i class=\"material-icons\">keyboard_arrow_down</i> 3%-->\n      <!--            <span class=\"deep-orange-text text-lighten-5\">from last month</span>-->\n      <!--          </p>-->\n      <!--        </div>-->\n      <!--      </div>-->\n      <!--    </div>-->\n      <!--  </div>-->\n      <!--</div>-->\n      <!--card stats end-->\n\n      <!--card widgets start-->\n      <div id=\"card-widgets\">\n        <div class=\"row\">\n          <div class=\"col s12 m4 l4\">\n            <ul id=\"task-card\" class=\"collection with-header\">\n              <li class=\"collection-header teal accent-4\">\n                <h4 class=\"task-card-title\">My Task</h4>\n                <p class=\"task-card-date\">Sept 16, 2017</p>\n              </li>\n              <li class=\"collection-item dismissable\">\n                <input type=\"checkbox\" id=\"task1\" />\n                <label for=\"task1\">Create Mobile App UI.\n                  <a href=\"#\" class=\"secondary-content\">\n                    <span class=\"ultra-small\">Today</span>\n                  </a>\n                </label>\n                <span class=\"task-cat cyan\">Mobile App</span>\n              </li>\n              <li class=\"collection-item dismissable\">\n                <input type=\"checkbox\" id=\"task2\" />\n                <label for=\"task2\">Check the new API standerds.\n                  <a href=\"#\" class=\"secondary-content\">\n                    <span class=\"ultra-small\">Monday</span>\n                  </a>\n                </label>\n                <span class=\"task-cat red accent-2\">Web API</span>\n              </li>\n              <li class=\"collection-item dismissable\">\n                <input type=\"checkbox\" id=\"task3\" checked=\"checked\" />\n                <label for=\"task3\">Check the new Mockup of ABC.\n                  <a href=\"#\" class=\"secondary-content\">\n                    <span class=\"ultra-small\">Wednesday</span>\n                  </a>\n                </label>\n                <span class=\"task-cat teal accent-4\">Mockup</span>\n              </li>\n              <li class=\"collection-item dismissable\">\n                <input type=\"checkbox\" id=\"task4\" checked=\"checked\" disabled=\"disabled\" />\n                <label for=\"task4\">I did it !</label>\n                <span class=\"task-cat deep-orange accent-2\">Mobile App</span>\n              </li>\n            </ul>\n          </div>\n          <div class=\"col s12 m12 l4\">\n            <div id=\"flight-card\" class=\"card\">\n              <div class=\"card-header deep-orange accent-2\">\n                <div class=\"card-title\">\n                  <h4 class=\"flight-card-title\">Flight</h4>\n                  <p class=\"flight-card-date\">June 18, Thu 04:50</p>\n                </div>\n              </div>\n              <div class=\"card-content-bg white-text\">\n                <div class=\"card-content\">\n                  <div class=\"row flight-state-wrapper\">\n                    <div class=\"col s5 m5 l5 center-align\">\n                      <div class=\"flight-state\">\n                        <h4 class=\"margin\">LDN</h4>\n                        <p class=\"ultra-small\">London</p>\n                      </div>\n                    </div>\n                    <div class=\"col s2 m2 l2 center-align\">\n                      <i class=\"material-icons flight-icon\">local_airport</i>\n                    </div>\n                    <div class=\"col s5 m5 l5 center-align\">\n                      <div class=\"flight-state\">\n                        <h4 class=\"margin\">SFO</h4>\n                        <p class=\"ultra-small\">San Francisco</p>\n                      </div>\n                    </div>\n                  </div>\n                  <div class=\"row\">\n                    <div class=\"col s6 m6 l6 center-align\">\n                      <div class=\"flight-info\">\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Depart:</span> 04.50</p>\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Flight:</span> IB 5786</p>\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Terminal:</span> B</p>\n                      </div>\n                    </div>\n                    <div class=\"col s6 m6 l6 center-align flight-state-two\">\n                      <div class=\"flight-info\">\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Arrive:</span> 08.50</p>\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Flight:</span> IB 5786</p>\n                        <p class=\"small\">\n                          <span class=\"grey-text text-lighten-4\">Terminal:</span> C</p>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col s12 m4 l4\">\n            <div id=\"profile-card\" class=\"card\">\n              <div class=\"card-image waves-effect waves-block waves-light\">\n                <img class=\"activator\" src=\"images/gallary/3.png\" alt=\"user bg\">\n              </div>\n              <div class=\"card-content\">\n                <img src=\"images/avatar/avatar-7.png\" alt=\"\" class=\"circle responsive-img activator card-profile-image cyan lighten-1 padding-2\">\n                <a class=\"btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right\">\n                  <i class=\"material-icons\">edit</i>\n                </a>\n                <span class=\"card-title activator grey-text text-darken-4\">Roger Waters</span>\n                <p>\n                  <i class=\"material-icons\">perm_identity</i> Project Manager</p>\n                <p>\n                  <i class=\"material-icons\">perm_phone_msg</i> +1 (612) 222 8989</p>\n                <p>\n                  <i class=\"material-icons\">email</i> yourmail@domain.com</p>\n              </div>\n              <div class=\"card-reveal\">\n                <span class=\"card-title grey-text text-darken-4\">Roger Waters\n                  <i class=\"material-icons right\">close</i>\n                </span>\n                <p>Here is some more information about this card.</p>\n                <p>\n                  <i class=\"material-icons\">perm_identity</i> Project Manager</p>\n                <p>\n                  <i class=\"material-icons\">perm_phone_msg</i> +1 (612) 222 8989</p>\n                <p>\n                  <i class=\"material-icons\">email</i> yourmail@domain.com</p>\n                <p>\n                  <i class=\"material-icons\">cake</i> 18th June 1990\n                </p>\n                <p>\n                </p>\n                <p>\n                  <i class=\"material-icons\">airplanemode_active</i> BAR - AUS\n                </p>\n                <p>\n                </p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!--card widgets end-->\n\n      <!--work collections start-->\n      <div id=\"work-collections\">\n        <div class=\"row\">\n          <div class=\"col s12 m12 l6\">\n            <ul id=\"projects-collection\" class=\"collection z-depth-1\">\n              <li class=\"collection-item avatar\">\n                <i class=\"material-icons cyan circle\">card_travel</i>\n                <h6 class=\"collection-header m-0\">Projects</h6>\n                <p>Your Favorites</p>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s9\">\n                    <p class=\"collections-title\">Web App</p>\n                    <p class=\"collections-content\">AEC Company</p>\n                  </div>\n                  <div class=\"col s3\">\n                    <span class=\"task-cat cyan\">Development</span>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s9\">\n                    <p class=\"collections-title\">Mobile App for Social</p>\n                    <p class=\"collections-content\">iSocial App</p>\n                  </div>\n                  <div class=\"col s3\">\n                    <span class=\"task-cat red accent-2\">UI/UX</span>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s9\">\n                    <p class=\"collections-title\">Website</p>\n                    <p class=\"collections-content\">MediTab</p>\n                  </div>\n                  <div class=\"col s3\">\n                    <span class=\"task-cat teal accent-4\">Marketing</span>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s9\">\n                    <p class=\"collections-title\">AdWord campaign</p>\n                    <p class=\"collections-content\">True Line</p>\n                  </div>\n                  <div class=\"col s3\">\n                    <span class=\"task-cat deep-orange accent-2\">SEO</span>\n                  </div>\n                </div>\n              </li>\n            </ul>\n          </div>\n          <div class=\"col s12 m12 l6\">\n            <ul id=\"issues-collection\" class=\"collection z-depth-1\">\n              <li class=\"collection-item avatar\">\n                <i class=\"material-icons red accent-2 circle\">bug_report</i>\n                <h6 class=\"collection-header m-0\">Issues</h6>\n                <p>Assigned to you</p>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s7\">\n                    <p class=\"collections-title\">\n                      <strong>#102</strong> Home Page</p>\n                    <p class=\"collections-content\">Web Project</p>\n                  </div>\n                  <div class=\"col s2\">\n                    <span class=\"task-cat deep-orange accent-2\">P1</span>\n                  </div>\n                  <div class=\"col s3\">\n                    <div class=\"progress\">\n                      <div class=\"determinate\" style=\"width: 70%\"></div>\n                    </div>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s7\">\n                    <p class=\"collections-title\">\n                      <strong>#108</strong> API Fix</p>\n                    <p class=\"collections-content\">API Project </p>\n                  </div>\n                  <div class=\"col s2\">\n                    <span class=\"task-cat cyan\">P2</span>\n                  </div>\n                  <div class=\"col s3\">\n                    <div class=\"progress\">\n                      <div class=\"determinate\" style=\"width: 40%\"></div>\n                    </div>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s7\">\n                    <p class=\"collections-title\">\n                      <strong>#205</strong> Profile page css</p>\n                    <p class=\"collections-content\">New Project </p>\n                  </div>\n                  <div class=\"col s2\">\n                    <span class=\"task-cat red accent-2\">P3</span>\n                  </div>\n                  <div class=\"col s3\">\n                    <div class=\"progress\">\n                      <div class=\"determinate\" style=\"width: 95%\"></div>\n                    </div>\n                  </div>\n                </div>\n              </li>\n              <li class=\"collection-item\">\n                <div class=\"row\">\n                  <div class=\"col s7\">\n                    <p class=\"collections-title\">\n                      <strong>#188</strong> SAP Changes</p>\n                    <p class=\"collections-content\">SAP Project</p>\n                  </div>\n                  <div class=\"col s2\">\n                    <span class=\"task-cat teal accent-4\">P1</span>\n                  </div>\n                  <div class=\"col s3\">\n                    <div class=\"progress\">\n                      <div class=\"determinate\" style=\"width: 10%\"></div>\n                    </div>\n                  </div>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <!--work collections end-->\n\n      <!-- //////////////////////////////////////////////////////////////////////////// -->\n    </div>\n    <!--end container-->\n  </section>\n"
+
+/***/ }),
+
+/***/ "./src/app/seccion/seccion.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/seccion/seccion.component.ts ***!
+  \**********************************************/
+/*! exports provided: SeccionComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeccionComponent", function() { return SeccionComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var SeccionComponent = /** @class */ (function () {
+    function SeccionComponent() {
+    }
+    SeccionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'seccion-app',
+            template: __webpack_require__(/*! ./seccion.component.html */ "./src/app/seccion/seccion.component.html")
+        })
+    ], SeccionComponent);
+    return SeccionComponent;
 }());
 
 
