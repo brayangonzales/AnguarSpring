@@ -20,12 +20,24 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/images"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css/materialize.css",
+              "src/css/style.css",
+              "src/vendors/perfect-scrollbar/perfect-scrollbar.css",
+              "src/vendors/flag-icon/css/flag-icon.min.css"
+
             ],
-            "scripts": [],
+            "scripts": [
+              "src/vendors/jquery-3.2.1.min.js",
+              "src/js/materialize.min.js",
+              "src/vendors/perfect-scrollbar/perfect-scrollbar.min.js",
+              "src/js/plugins.js",
+              "src/js/custom-script.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
