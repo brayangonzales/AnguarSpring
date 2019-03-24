@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
 })
 
 export class MenuComponent{
+  menu: any =[
+    {descripcion:"Ventas",icono: "shopping_cart"}
+
+  ]
 
 }
