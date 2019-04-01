@@ -19,6 +19,5 @@ public class indexController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ModelAndView doIndex(){
         return new ModelAndView("index");
-        
     }
 }
